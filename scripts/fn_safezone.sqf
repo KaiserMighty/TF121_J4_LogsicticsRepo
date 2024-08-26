@@ -15,10 +15,6 @@ safezone_eachFrame =
 		} forEach safezone_muzzles;
 		[player, "blockThrow", "safezone", true] call ace_common_fnc_statusEffect_set;
 		[player, 1] call ace_explosives_fnc_cancelPlacement;
-		if (player call tsp_fnc_melee_doing) then
-		{
-			player setVariable ["tsp_gestureStop", true]
-		};
 		true
 	}
 	else
