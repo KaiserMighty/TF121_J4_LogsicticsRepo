@@ -20,6 +20,24 @@ class CfgDiscordRichPresence {
     useTimeElapsed=1;							// Show time elapsed since the player connected (1 - true, 0 - false)
 };
 
+class CfgDebriefing
+{
+	class MODMISMATCH
+	{
+		title = "Mod Mismatch";
+		subtitle = "";
+		description = "Unload all mods, load only the megapack and it's dependencies, along with any approved clientsides.";
+		picture = "121_map_TF121";
+	};
+	class ENDROLE
+	{
+		title = "Reserved Slot";
+		subtitle = "";
+		description = "You are in a reserved slot, choose another slot.";
+		picture = "121_map_TF121";
+	};
+};
+
 respawn=3;
 respawnDelay=2;
 respawnOnStart=-1;
