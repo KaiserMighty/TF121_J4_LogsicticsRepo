@@ -10,6 +10,5 @@ if (count _result != count _clientMods) then
 	diag_log _serverMods;
 	diag_log _clientMods;
 	diag_log _result;
-	["Unload all mods, load megapack and dependencies only. Check discord for approved clientside mods.", "Mod Mismatch: Incorrect Loaded"] spawn BIS_fnc_guiMessage;
 	endMission "MODMISMATCH";
 };
