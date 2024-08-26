@@ -89,13 +89,13 @@ _globalBanList = [
 //INITIALIZE ARRAYS
 _rangerItems = ["test_KAC_LAMG_black_F"];
 _rangerBlacklist = [];
-_cagItems = ["Shemag_EYEPRO_BLK_SHD","Shemag_EYEPRO_BLK_CLR","Hert_raybans"];
+_cagItems = ["Shemag_EYEPRO_BLK_SHD","Shemag_EYEPRO_BLK_CLR","SPEAR_LT_BLK","SPEAR_LT_BLK_CTR","SIG_SLX556_QD_BLK","CAG_HK416_SMR_Base"];
 _makoItems = [];
-_makoBlacklist = ["kat_PainkillerItem","tsp_popperCharge_mag","tsp_popperCharge_auto_mag"];
+_makoBlacklist = ["kat_PainkillerItem","tsp_breach_popper_mag","tsp_breach_popper_auto_mag"];
 _soarItems = [];
 _stsItems = ["STS_RC","visco_opscore_4"];
 _sustItems = [];
-_jregItems = [];
+_jregItems = ["Eric_URGI_14"];
 
 //INITIALIZE GLOBAL BLACKLIST
 _tempItems = "'ar_contraband' in (configName _x)" configClasses (configFile >> "CfgWeapons") apply {configName _x};
