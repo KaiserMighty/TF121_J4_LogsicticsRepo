@@ -4,7 +4,7 @@ _playerRole = roleDescription player;
 
 //INITIALIZE ROLES
 _rangerRoles = [
-	"Keepsrunning",
+	"Keepsrunning@A Co, 3/75 Ranger Regiment",
 	"Bud",
 	"Smoke",
 	"Anubis",
@@ -14,13 +14,13 @@ _rangerRoles = [
 ];
 
 _cagRoles = [
-	"Fields",
+	"Fields@D-Sqn, Combat Applications Group",
 	"Derek",
 	"NCOIC"
 ];
 
 _makoRoles = [
-	"E11", "E12", "E13",
+	"E11@Tactical Developments and Evaluations Squadron 2", "E12", "E13",
 	"EA1", "EA2", "EA3", "EA4", "EA5", "EA6",
 	"EB1", "EB2", "EB3", "EB4", "EB5", "EB6",
 	"EC1", "EC2",
@@ -32,20 +32,20 @@ _makoRoles = [
 ];
 
 _soarRoles = [
-	"Reckless",
+	"Reckless@US Special Operations Aviations Command",
 	"Raptor",
 	"Pinard",
 	"Aznable"
 ];
 
 _stsRoles = [
-	"Logan",
+	"Logan@24th Special Tactics Squadron",
 	"Odin",
 	"Fiddlesticks"
 ];
 
 _sustRoles = [
-	"Gammer",
+	"Gammer@528th Sustainment Brigade",
 	"Miller",
 	"528th NCOIC"
 ];

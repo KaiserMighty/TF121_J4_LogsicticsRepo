@@ -3,7 +3,7 @@ _playerID = getPlayerUID player;
 
 switch (_role) do
 {
-	case "Ichor":
+	case "Ichor@Task Force HQ":
 	{
 		if (_playerID != "76561198114407895") then
 		{
@@ -31,7 +31,7 @@ switch (_role) do
 			endMission "ENDROLE";
 		}
 	};
-	case "E11":
+	case "E11@Tactical Developments and Evaluations Squadron 2":
 	{
 		if (_playerID != "76561198111971726") then
 		{
