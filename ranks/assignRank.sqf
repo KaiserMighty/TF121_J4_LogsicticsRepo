@@ -118,6 +118,38 @@ switch (_rank) do
 	{
 		_rank = "CPO"
 	};
+	case "IT3":
+	{
+		_rank = "PO3"
+	};
+	case "IT2":
+	{
+		_rank = "PO2"
+	};
+	case "IT1":
+	{
+		_rank = "PO1"
+	};
+	case "ITC":
+	{
+		_rank = "CPO"
+	};
+	case "HM3":
+	{
+		_rank = "PO3"
+	};
+	case "HM2":
+	{
+		_rank = "PO2"
+	};
+	case "HM1":
+	{
+		_rank = "PO1"
+	};
+	case "HMC":
+	{
+		_rank = "CPO"
+	};
 };
 
 if (_rank == "Empty") exitWith {};
