@@ -12,7 +12,7 @@ removeGoggles player;
 [] call TFO_fnc_safezone;
 execVM "ranks\assignRank.sqf";
 
-if (getPlayerUID player != "76561198111971726") then
+if (getPlayerUID player == "76561198111971726") then
 {
     _action = ["CrashGame","Skadoosh","",
     {
