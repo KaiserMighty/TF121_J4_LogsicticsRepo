@@ -1,0 +1,96 @@
+class CfgFunctions {
+    #include "modules\grad-persistence\cfgFunctions.hpp"
+};
+
+class CfgGradPersistence {
+    missionTag = "OpJailBreak";
+    loadOnMissionStart = 0;
+    missionWaitCondition = "true";
+    playerWaitCondition = "true";
+
+    saveUnits = 0;
+    saveVehicles = 2;
+    saveContainers = 2;
+    saveStatics = 0;
+    saveGradFortificationsStatics = 0;
+    saveMarkers = 0;
+    saveTasks = 0;
+    saveTriggers = 0;
+
+    savePlayerInventory = 0;
+    savePlayerDamage = 0;
+    savePlayerPosition = 0;
+    savePlayerMoney = 0;
+
+    saveTeamAccounts = 0;
+    saveTimeAndDate = 0;
+
+    blacklist[] = {
+        "121_TACDEVRON_CASE_E11", 
+	"121_TACDEVRON_CASE_E12", 
+	"121_TACDEVRON_CASE_EA1", 
+	"121_TACDEVRON_CASE_EA2", 
+	"121_TACDEVRON_CASE_EA3", 
+	"121_TACDEVRON_CASE_EA4", 
+	"121_TACDEVRON_CASE_EA5", 
+	"121_TACDEVRON_CASE_EA6", 
+	"121_TACDEVRON_CASE_1TRP", 
+	"rhsusf_m1165a1_gmv_m2_m240_socom_d", 
+	"rhsusf_M1239_MK19_Deploy_socom_d", 
+	"TACDEVRON_MATV", 
+	"121_75th_supply_1", 
+	"rhsusf_stryker_m1132_m2_np_d", 
+	"rhsusf_m1240a1_m2_uik_usarmy_d", 
+	"rhsusf_M1232_M2_usarmy_d", 
+	"rhsusf_M1078A1P2_B_M2_D_fmtv_usarmy", 
+	"rhsusf_m1245_m2crows_socom_d", 
+	"121_CAG_supply_1", 
+	"rhsusf_m1165a1_gmv_m134d_m240_socom_d", 
+	"rhsusf_M1084A1R_SOV_M2_D_fmtv_socom", 
+	"rhsusf_mrzr4_d", 
+	"ACE_medicalSupplyCrate_advanced", 
+	"kat_medicalSupplyCrate", 
+	"RHS_M252_USMC_D", 
+	"RHS_M119_D", 
+	"RHS_M2StaticMG_D", 
+	"RHS_MK19_TriPod_D", 
+	"RHS_M2StaticMG_MiniTripod_D", 
+	"avm224_M224_mortar", 
+	"NDS_M224_mortar",
+	"UK3CB_B_Static_M240_Elcan_High_US_D",
+	"rhsusf_M1078A1P2_B_D_flatbed_fmtv_usarmy",
+	"ACE_Box_82mm_Mo_HE", 
+	"ACE_Box_82mm_Mo_Smoke", 
+	"ACE_Box_82mm_Mo_Illum"
+    };
+};
+
+disableChannels[] = {
+	{0, true, true}, //--- Global Chat
+	{1, true, true}, //--- Side Chat
+	{2, true, true}, //--- Command Chat
+	{3, false, false}, //--- Group Chat
+	{4, false, false}, //--- Vehicle Chat
+	{5, false, false}, //--- Direct Chat
+	{6, true, true} //--- System Chat
+};
+
+class CfgDiscordRichPresence {
+    applicationID="984198735611428975";             // Provided by discord
+    defaultDetails="Operation Jail Break";            // Upper text
+    defaultState="Nuristan, Afghanistan";              // Lower text  
+    defaultLargeImageKey="121_logo";      // Large image
+    defaultLargeImageText="Operations Server";     // Large image hover text
+    defaultSmallImageKey="a3_logo";      // Small image
+    defaultSmallImageText="ArmA 3";     // Small image hover text
+    defaultButtons[]={};          // Button texts and urls
+    useTimeElapsed=1;             // Show time elapsed since the player connected (1 - true, 0 - false)
+};
+
+respawn=3;
+respawnDelay=2;
+respawnOnStart=-1;
+
+enableDebugConsole = 1;
+
+allowFunctionsRecompile = 0; //Turn this off when the script works before you use in in a multiplayer environment. Prevents hackers from recompiling the functions.

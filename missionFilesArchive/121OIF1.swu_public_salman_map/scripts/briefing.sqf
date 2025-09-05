@@ -1,0 +1,17 @@
+player createDiarySubject ["Diary","Briefing"];
+
+player createDiaryRecord ["Diary", ["Mission", "
+Fox Company is assembled just south of Al-Salman along Route Prince. Fox Coy is to proceed along Route Prince and secure the route to allow adjacent and follow-on units to use the route. As such, Fox Coy is to ensure the route is clear of any obstacles and enemy. If contact with the enemy is made, thoroughly defeat the enemy to ensure they cannot pose a threat to potentially lesser armed follow-on units. North of Al-Salman is a key crossroads that is a Battalion level objective. Objective Troll is key terrain suspected to be within enemy control, this crossroads will allow US units to connect to and disconnect from route prince as needed. The enemy likely recognizes this and is expected to have some level of obstacles and defensives set up there.
+"]];
+
+player createDiaryRecord ["Diary", ["Intelligence", "
+Battalion S-2 says that according to reports, Al-Salman was occupied the 85th Infantry Division. The 85th is one of Saddam's weaker units, likely tasked with delaying any US advance rather than offering any meaningful resistance. They're supposed to be mostly a motorized unit, with some light mechanized vehicles. The 85th is not high on Saddam's priority of supply, many of the unit's motorized vehicles, which are supposed to be military trucks, are just commandeered civilian pickups and other vehicles. Some entrepreneuring Iraqis have mounted heavy weapons to the civilian vehicles, effectively turning them into technicals. The unit is also, at least on paper, supported by an armored reconnaissance unit, primarily consisting of BTR-60s, but likely substituted by BRDM-2s in the face of equipment shortages.
+"]];
+
+player createDiaryRecord ["Diary", ["Situation", "
+We were greeted earlier by LAVs from the 1st Marine Division's Light Armored Reconnaissance Battalion. An LAV platoon lead Fox Coy up to the outskirts of the city of Al-Salman. While on the road, platoon was suddenly and effectively engaged by around a dozen RPGs. Two of the rockets struck the lead LAV, one at the front, and a second one on the turret. Miraculously, the crew was uninjured, but the vehicle was immobilized and gun rendered unusable. The remaining LAVs provided suppressive fire on possible enemy firing positions and vehicles, but none of the gunners or commanders positively identified any targets. Once the first LAV's crew was evacuated into the remaining LAVs, they reversed out of the engagement. The LAVs then returned to their unit upon being ordered to do so after reporting the contact.
+"]];
+
+player createDiaryRecord ["Diary", ["Background", "
+Fox Company, 2/8 Marines is part of Task Force TARAWA. 2/8 Marines is a light infantry battalion and outfitted with HMMWV vehicles as opposed to the AAVs and LAV-25s that normal Marine infantry units have. As such, Fox Coy has been placed at the left edge of the Task Force and tasked with screening and route clearance. The main effort is heading towards the city of Baghdad, Fox Coy is to keep key routes and objectives open and clear to allow follow-on units or supporting units freedom of maneuver if the main force gets bogged down or overwise delayed. Should the main effort meet any sizable resistance along their route, flanking elements can maneuver around the enemy using the routes cleared and secured by Fox Coy. Due to the peripheral nature of Fox Coy's tasking, the company and parent battalion does not have priority of fires, supports, or resupply.
+"]];

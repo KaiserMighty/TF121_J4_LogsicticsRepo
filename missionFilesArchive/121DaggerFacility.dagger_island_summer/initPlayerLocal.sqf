@@ -1,0 +1,43 @@
+if (!hasInterface) exitWith {};
+
+waitUntil {!isNull player};
+
+removeGoggles player;
+
+sleep 5;
+
+execVM "scripts\modcheck.sqf";
+execVM "scripts\slots.sqf";
+execVM "scripts\arsenal.sqf";
+execVM "ranks\assignRank.sqf";
+execVM "scripts\quickReference.sqf";
+
+// Add player persistence
+_playerData = profileNameSpace getVariable format ["Player_Data_%1_%2", missionName, worldName];
+
+_loadout = _playerData select 0;
+_position = _playerData select 1;
+_dir = _playerData select 2;
+_med = _playerData select 3;
+
+if (isNil "_playerData") then {
+ 
+} else {
+  player setUnitLoadout _loadout;
+  player setPosASL _position;
+  player setDir _dir;
+  [{[(_this select 0),(_this select 1)] call ace_medical_fnc_deserializeState},[player,_med]] call CBA_fnc_directCall;
+};
+
+while {true} do {
+  // Get player variables
+  _loadout = [getUnitLoadout player] call acre_api_fnc_filterUnitLoadout;
+  _position = getPosASL player;
+  _dir = getDir player;
+  _med = [{_this call ace_medical_fnc_serializeState}, player] call CBA_fnc_directCall;
+  
+  // Save variable to player profile
+  profileNameSpace setVariable [format ["Player_Data_%1_%2", missionName, worldName], [_loadout, _position, _dir, _med]];
+  
+  sleep 60;
+};

@@ -1,0 +1,65 @@
+disableChannels[] = {
+	{0, true, true}, //--- Global Chat
+	{1, true, true}, //--- Side Chat
+	{2, true, true}, //--- Command Chat
+	{3, false, false}, //--- Group Chat
+	{4, false, false}, //--- Vehicle Chat
+	{5, false, false}, //--- Direct Chat
+	{6, true, true} //--- System Chat
+};
+
+class CfgDiscordRichPresence {
+    applicationID="984198735611428975";             // Provided by discord
+    defaultDetails="Napf Rotation";            // Upper text
+    defaultState="Northern Europe";              // Lower text  
+    defaultLargeImageKey="121_logo";      // Large image
+    defaultLargeImageText="Operations Server";     // Large image hover text
+    defaultSmallImageKey="a3_logo";      // Small image
+    defaultSmallImageText="ArmA 3";     // Small image hover text
+    defaultButtons[]={};          // Button texts and urls
+    useTimeElapsed=1;             // Show time elapsed since the player connected (1 - true, 0 - false)
+};
+
+class CfgDebriefing
+{
+	class MODMISMATCH
+	{
+		title = "Mod Mismatch";
+		subtitle = "";
+		description = "Unload all mods, load only the megapack and it's dependencies, along with any approved clientsides.";
+		picture = "121_map_TF121";
+	};
+	class ENDROLE
+	{
+		title = "Reserved Slot";
+		subtitle = "";
+		description = "You are in a reserved slot, choose another slot.";
+		picture = "121_map_TF121";
+	};
+};
+
+respawn=3;
+respawnDelay=2;
+respawnOnStart=-1;
+
+enableDebugConsole = 1;
+
+class CfgFunctions
+{
+	class TFO
+	{
+		class functions
+		{
+			file = "scripts";
+			class acreBabel{};
+			class acrePreset{};
+			class arsenal{};
+			class modcheck{};
+			class quickReference{};
+			class slots{};
+			class safezone{};
+		};
+	};
+};
+
+allowFunctionsRecompile = 0; //Turn this off when the script works before you use in in a multiplayer environment. Prevents hackers from recompiling the functions.

@@ -1,0 +1,1 @@
+[{[false, 0] call grad_persistence_fnc_saveMission}, 300, []] call CBA_fnc_addPerFrameHandler;

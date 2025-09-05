@@ -1,0 +1,9 @@
+respawn=3;
+respawnDelay=5;
+respawnOnStart=-1;
+aiKills = 0;
+disabledAI = 1;
+author = "Kaiser Mighty";
+OnLoadName = "Kunar Province COIN";
+OnLoadMission = "U.S. Special Operations Forces take a combat role clearing Taliban cells with the Afghan National Army in Kunar Province, Afghanistan.";
+loadScreen = "afghanistan.jpg";

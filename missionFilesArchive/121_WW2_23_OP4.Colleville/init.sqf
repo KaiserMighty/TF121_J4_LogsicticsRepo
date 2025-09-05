@@ -1,0 +1,1 @@
+missionNamespace setVariable ["FL_Spotlight_isDebug",false,true];
