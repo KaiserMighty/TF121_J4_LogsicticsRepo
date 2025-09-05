@@ -1,2 +1,2 @@
-# tf121MissionTemplate
-Scripts and files included within all Task Force 121 ArmA mission files
+# tf121-J4-LogisticsRepo
+Scripts and files related to TF121 servers and missions
