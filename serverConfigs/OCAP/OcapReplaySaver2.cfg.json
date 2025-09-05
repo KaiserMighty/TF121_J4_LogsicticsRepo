@@ -1,0 +1,9 @@
+{
+    "httpRequestTimeout": 120,
+    "logAndTmpPrefix": "ocap-",
+    "logsDir": "./OCAPLOG",
+    "newServerGameType": "OP",
+    "newUrl": "http://67.169.23.137:5000/api/v1/operations/add",
+    "newUrlRequestSecret": "ocap121",
+    "traceLog": 0
+}
